@@ -343,7 +343,7 @@ def process_frame(frame, exercise_choice, pose):
 def get_available_cameras():
     """Detect available cameras in the system"""
     available_cameras = []
-    for i in range(10):  # Check first 10 indexes
+    for i in range(3):  # Check first 3 indexes
         cap = cv2.VideoCapture(i)
         if cap.isOpened():
             # Read a frame to get resolution
