@@ -359,7 +359,7 @@ def get_available_cameras():
     return available_cameras
 
 def main():
-    st.title("AI Fitness Trainer")
+    st.title("Click Start if You are not able to see yourself press Reset")
     
     # Sidebar for user input
     st.sidebar.header("Settings")
